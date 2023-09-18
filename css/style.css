@@ -877,7 +877,7 @@ h1, h2, h3, h4, h5,
       .bg-image {
         position: absolute;
         z-index: -1;
-        filter:Alpha(opacity=20);-moz-opacity:0.60;opacity: 0.70; 
+        filter:Alpha(opacity=90);-moz-opacity:0.90;opacity: 0.90; 
       }
 
 .site-section {
