@@ -28,43 +28,32 @@
     </video>
   <div class="site-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a href="index.html"><img src="images/Logo épais blanc.png" alt="" width="85" height="95"></a>
+          <div class="collapse navbar-collapse text-white" id="navbarResponsive">
+              <ul class="navbar-nav  ms-auto py-4 py-lg-0">
+                <li><a class="ml-3" href="index.html" class="nav-link">Accueil</a></li>
+                <li><a class="ml-3" href="#section-photos" class="nav-link">Photos</a></li>
+                <li><a class="ml-3" href="#side-section2" class="nav-link">Vidéos</a></li>
+                <li><a class="ml-3" href="#section-formation" class="nav-link">Formation</a></li>
+                <li><a class="ml-3" href="#section-contact" class="nav-link">Contact</a></li>
+              </ul>
+              <ul class="navbar-nav text-uppercase ms-auto py-4 ml-5 py-lg-0">
+                <li><a class="ml-5" href="https://www.youtube.com/channel/UCDUFCEWkvgAKunkD0yDMvDw" target="_blank"><span
+                      ></span><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a class="ml-5" href="https://www.instagram.com/mart.prod/" target="_blank"><span class="icon-instagram"></span></a>
+                </li>
+                <li><a class="ml-5" href="https://www.facebook.com/mart.terrade" target="_blank"><span class="icon-facebook"></span></a>
+                </li>
+                <li><a class="ml-5" href="https://www.tiktok.com/@mart_prod" target="_blank"><span><i class="fa-brands fa-tiktok"></i></span></a>
+                </li>
+                <li><a class="ml-5" href="https://linkr.bio/Mart.prod" target="_blank"><span class="icon-link"></span></a></li>
+              </ul>
+          </div>
       </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-    <header class="header-bar d-flex d-lg-block align-items-center site-navbar-target" data-aos="fade-right">
-      <div class="site-logo">
-        <a href="index.html"><img src="images/Logo épais noir.png" alt="" width="85" height="95"></a>
-      </div>
-
-      <div class="d-inline-block d-lg-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#"
-          class="site-menu-toggle js-menu-toggle "><span class="icon-menu h3"></span></a></div>
-
-      <div class="main-menu">
-        <ul class="js-clone-nav">
-          <li><a href="#section-accueil" class="nav-link">Accueil</a></li>
-          <li><a href="#section-photos" class="nav-link">Photos</a></li>
-          <li><a href="#section-formation" class="nav-link">Formation</a></li>
-          <li><a href="#section-contact" class="nav-link">Contact</a></li>
-        </ul>
-        <ul class="social js-clone-nav">
-          <li><a href="https://www.youtube.com/channel/UCDUFCEWkvgAKunkD0yDMvDw" target="_blank"><span
-                ></span><i class="fa-brands fa-youtube"></i></a></li>
-          <li><a href="https://www.instagram.com/mart.prod/" target="_blank"><span class="icon-instagram"></span></a>
-          </li>
-          <li><a href="https://www.facebook.com/mart.terrade" target="_blank"><span class="icon-facebook"></span></a>
-          </li>
-          <li><a href="https://www.tiktok.com/@mart_prod" target="_blank"><span><i class="fa-brands fa-tiktok"></i></span></a>
-          </li>
-          <li><a href="https://linkr.bio/Mart.prod" target="_blank"><span class="icon-link"></span></a></li>
-        </ul>
-      </div>
-    </header>
+  </nav>
     <main class="main-content ">
       <br>
       <br>
@@ -111,14 +100,14 @@
       <br>
       <br>
 
-      <div class="container-fluid site-section">
+      <div class="container-fluid site-section" id="section-photos">
         <div class="row mb-3">
           <div class="col-12 text-center">
             <h2 class="heading">Mes photos</h2>
           </div>
         </div>
 
-        <section class="row align-items-stretch photos" id="section-photos">
+        <section class="row align-items-stretch photos" >
           <div class="col-12">
             <div class="row align-items-stretch">
 
@@ -224,12 +213,17 @@
               </div>
 
             </div>
+            <div class="row">
+              <div class="col-12 pt-5"  data-aos="fade-up" data-aos-delay="200">
+                <a id="btn" class="btn btn-xl btn-primary btn-lg " href="">Toutes mes photos  <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
 
           </div>
         </section>
 
         <div class="row mb-3 mt-5">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center "id="side-section2">
             <h2 class="heading mt-5">Mes videos</h2>
           </div>
         </div>
@@ -240,23 +234,28 @@
 
 
             <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
-              <video controls width="130%" height="100%" autoplay muted="" loop="infinite" src="video/test.mp4"></video>
+              <video controls width="130%" height="100%"  muted="" loop="infinite" src="video/test.mp4"></video>
             </div>
             <div class="col-2 col-md-1 col-lg-1">
             </div>
 
             <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
-              <video controls width="130%" height="100%" autoplay muted="" loop="infinite"
+              <video controls width="130%" height="100%"  muted="" loop="infinite"
                 src="video/test2.mp4"></video>
             </div>
             <div class="col-2 col-md-1 col-lg-1">
             </div>
 
             <div class="col-6 col-md-6 col-lg-3" data-aos="fade-up">
-              <video controls width="130%" height="100%" autoplay muted="" loop="infinite"
+              <video controls width="130%" height="100%"  muted="" loop="infinite"
                 src="video/test3.mp4"></video>
             </div>
 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 pt-5"  data-aos="fade-up" data-aos-delay="200">
+            <a id="btn" target="_blank" class="btn btn-xl btn-primary btn-lg " href="https://www.youtube.com/channel/UCDUFCEWkvgAKunkD0yDMvDw">Toutes mes vidéos  <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
 
