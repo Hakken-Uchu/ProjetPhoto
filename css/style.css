@@ -217,6 +217,7 @@ h1, h2, h3, h4, h5,
   .display-1, .display-3 {
     font-size: 3rem; } }
 
+
 .play-single-big {
   width: 90px;
   height: 90px;
@@ -814,10 +815,9 @@ h1, h2, h3, h4, h5,
        }
 
       .bg-image {
-        left: 200px;
-        position: fixed;
+        position: absolute;
         z-index: -1;
-        filter:Alpha(opacity=40);-moz-opacity:0.90;opacity: 0.90; 
+        filter:Alpha(opacity=20);-moz-opacity:0.60;opacity: 0.70; 
       }
 
 .site-section {
